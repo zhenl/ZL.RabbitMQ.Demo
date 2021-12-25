@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7mzSiPGi9J4awUI1RQ2gUJObuRsDgar3PgOkGL91eYfBb6AKOYfkAW7j8Ae4kKjeK274dJhL2O8OueoMDqGgJw==",
+  "success": true,
+  "projectFilePath": "/home/zhenlei/dotnet/RabbitMQ/20211225/src/FanoutReceiver1/FanoutReceiver1.csproj",
+  "expectedPackageFiles": [
+    "/home/zhenlei/.nuget/packages/rabbitmq.client/6.2.2/rabbitmq.client.6.2.2.nupkg.sha512",
+    "/home/zhenlei/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/home/zhenlei/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
