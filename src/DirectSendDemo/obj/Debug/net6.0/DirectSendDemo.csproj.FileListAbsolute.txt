@@ -1,0 +1,17 @@
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.csproj.AssemblyReference.cache
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.GeneratedMSBuildEditorConfig.editorconfig
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.AssemblyInfoInputs.cache
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.AssemblyInfo.cs
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.csproj.CoreCompileInputs.cache
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/bin/Debug/net6.0/DirectSendDemo
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/bin/Debug/net6.0/DirectSendDemo.deps.json
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/bin/Debug/net6.0/DirectSendDemo.runtimeconfig.json
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/bin/Debug/net6.0/DirectSendDemo.dll
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/bin/Debug/net6.0/ref/DirectSendDemo.dll
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/bin/Debug/net6.0/DirectSendDemo.pdb
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/bin/Debug/net6.0/RabbitMQ.Client.dll
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.csproj.CopyComplete
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.dll
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/ref/DirectSendDemo.dll
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.pdb
+/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectSendDemo/obj/Debug/net6.0/DirectSendDemo.genruntimeconfig.cache

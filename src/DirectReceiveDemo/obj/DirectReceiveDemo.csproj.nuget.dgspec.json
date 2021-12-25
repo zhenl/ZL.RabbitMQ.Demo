@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectReceiveDemo/DirectReceiveDemo.csproj": {}
+  },
+  "projects": {
+    "/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectReceiveDemo/DirectReceiveDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectReceiveDemo/DirectReceiveDemo.csproj",
+        "projectName": "DirectReceiveDemo",
+        "projectPath": "/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectReceiveDemo/DirectReceiveDemo.csproj",
+        "packagesPath": "/home/zhenlei/.nuget/packages/",
+        "outputPath": "/home/zhenlei/dotnet/RabbitMQ/20211225/src/DirectReceiveDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zhenlei/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "rabbitmq.client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
