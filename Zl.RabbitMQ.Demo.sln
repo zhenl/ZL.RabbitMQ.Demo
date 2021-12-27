@@ -1,21 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstSender", "src\MyFirstSender\MyFirstSender.csproj", "{C971773A-FC70-4137-BB63-11F1CCCA56CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstSender", "src\MyFirstSender\MyFirstSender.csproj", "{C971773A-FC70-4137-BB63-11F1CCCA56CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstReceiver", "src\MyFirstReceiver\MyFirstReceiver.csproj", "{8AFDC910-5611-4398-80C4-401450A5739D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstReceiver", "src\MyFirstReceiver\MyFirstReceiver.csproj", "{8AFDC910-5611-4398-80C4-401450A5739D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectReceiveDemo", "src\DirectReceiveDemo\DirectReceiveDemo.csproj", "{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectSendDemo", "src\DirectSendDemo\DirectSendDemo.csproj", "{33505BF8-C20B-4376-8A36-650CAD7100F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutReceiver1", "src\FanoutReceiver1\FanoutReceiver1.csproj", "{23E8598E-C0B1-4469-8B09-FE6D96CDAB9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutReceiver2", "src\FanoutReceiver2\FanoutReceiver2.csproj", "{2AEB019D-C476-47D8-BD10-E5FA513D1727}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutSender", "src\FanoutSender\FanoutSender.csproj", "{D29C2E76-C093-463D-B94B-98775D3BC09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouteKeySender", "DirectRouteKeySender\DirectRouteKeySender.csproj", "{7FF4B6D0-84FC-4659-BBDD-95CD47676FC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouteKeyReceiver1", "DirectRouteKeyReceiver1\DirectRouteKeyReceiver1.csproj", "{26BCF399-7474-4E40-9C4C-A4C97AFA7FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouteKeyReceiver2", "DirectRouteKeyReceiver2\DirectRouteKeyReceiver2.csproj", "{EF985472-E34F-4670-80BD-B851A4397527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C971773A-FC70-4137-BB63-11F1CCCA56CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,9 +39,55 @@ Global
 		{8AFDC910-5611-4398-80C4-401450A5739D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AFDC910-5611-4398-80C4-401450A5739D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AFDC910-5611-4398-80C4-401450A5739D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33505BF8-C20B-4376-8A36-650CAD7100F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33505BF8-C20B-4376-8A36-650CAD7100F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33505BF8-C20B-4376-8A36-650CAD7100F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33505BF8-C20B-4376-8A36-650CAD7100F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E8598E-C0B1-4469-8B09-FE6D96CDAB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E8598E-C0B1-4469-8B09-FE6D96CDAB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E8598E-C0B1-4469-8B09-FE6D96CDAB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E8598E-C0B1-4469-8B09-FE6D96CDAB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEB019D-C476-47D8-BD10-E5FA513D1727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEB019D-C476-47D8-BD10-E5FA513D1727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEB019D-C476-47D8-BD10-E5FA513D1727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEB019D-C476-47D8-BD10-E5FA513D1727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29C2E76-C093-463D-B94B-98775D3BC09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29C2E76-C093-463D-B94B-98775D3BC09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29C2E76-C093-463D-B94B-98775D3BC09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29C2E76-C093-463D-B94B-98775D3BC09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF4B6D0-84FC-4659-BBDD-95CD47676FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF4B6D0-84FC-4659-BBDD-95CD47676FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF4B6D0-84FC-4659-BBDD-95CD47676FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF4B6D0-84FC-4659-BBDD-95CD47676FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BCF399-7474-4E40-9C4C-A4C97AFA7FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BCF399-7474-4E40-9C4C-A4C97AFA7FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BCF399-7474-4E40-9C4C-A4C97AFA7FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BCF399-7474-4E40-9C4C-A4C97AFA7FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF985472-E34F-4670-80BD-B851A4397527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF985472-E34F-4670-80BD-B851A4397527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF985472-E34F-4670-80BD-B851A4397527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF985472-E34F-4670-80BD-B851A4397527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C971773A-FC70-4137-BB63-11F1CCCA56CC} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
 		{8AFDC910-5611-4398-80C4-401450A5739D} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+		{33505BF8-C20B-4376-8A36-650CAD7100F2} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+		{23E8598E-C0B1-4469-8B09-FE6D96CDAB9E} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+		{2AEB019D-C476-47D8-BD10-E5FA513D1727} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+		{D29C2E76-C093-463D-B94B-98775D3BC09D} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+		{7FF4B6D0-84FC-4659-BBDD-95CD47676FC1} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+		{26BCF399-7474-4E40-9C4C-A4C97AFA7FAC} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+		{EF985472-E34F-4670-80BD-B851A4397527} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E268AA4-1934-4A33-ABA9-F0DDE0A68C46}
 	EndGlobalSection
 EndGlobal
