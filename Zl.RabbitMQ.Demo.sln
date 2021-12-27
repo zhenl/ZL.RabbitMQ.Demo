@@ -5,10 +5,6 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstSender", "src\MyFirstSender\MyFirstSender.csproj", "{C971773A-FC70-4137-BB63-11F1CCCA56CC}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstReceiver", "src\MyFirstReceiver\MyFirstReceiver.csproj", "{8AFDC910-5611-4398-80C4-401450A5739D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectReceiveDemo", "src\DirectReceiveDemo\DirectReceiveDemo.csproj", "{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectSendDemo", "src\DirectSendDemo\DirectSendDemo.csproj", "{33505BF8-C20B-4376-8A36-650CAD7100F2}"
@@ -19,15 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutReceiver2", "src\Fano
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutSender", "src\FanoutSender\FanoutSender.csproj", "{D29C2E76-C093-463D-B94B-98775D3BC09D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouteKeySender", "DirectRouteKeySender\DirectRouteKeySender.csproj", "{7FF4B6D0-84FC-4659-BBDD-95CD47676FC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectRouteKeySender", "DirectRouteKeySender\DirectRouteKeySender.csproj", "{7FF4B6D0-84FC-4659-BBDD-95CD47676FC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouteKeyReceiver1", "DirectRouteKeyReceiver1\DirectRouteKeyReceiver1.csproj", "{26BCF399-7474-4E40-9C4C-A4C97AFA7FAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectRouteKeyReceiver1", "DirectRouteKeyReceiver1\DirectRouteKeyReceiver1.csproj", "{26BCF399-7474-4E40-9C4C-A4C97AFA7FAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouteKeyReceiver2", "DirectRouteKeyReceiver2\DirectRouteKeyReceiver2.csproj", "{EF985472-E34F-4670-80BD-B851A4397527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectRouteKeyReceiver2", "DirectRouteKeyReceiver2\DirectRouteKeyReceiver2.csproj", "{EF985472-E34F-4670-80BD-B851A4397527}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicSend", "TopicSend\TopicSend.csproj", "{97A51513-C2FC-4265-BB32-013EDD89CFBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicSend", "TopicSend\TopicSend.csproj", "{97A51513-C2FC-4265-BB32-013EDD89CFBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicReceive", "TopicReceive\TopicReceive.csproj", "{730DD870-672A-41B4-B4B8-63AD2D29E709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicReceive", "TopicReceive\TopicReceive.csproj", "{730DD870-672A-41B4-B4B8-63AD2D29E709}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,14 +31,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C971773A-FC70-4137-BB63-11F1CCCA56CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C971773A-FC70-4137-BB63-11F1CCCA56CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C971773A-FC70-4137-BB63-11F1CCCA56CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C971773A-FC70-4137-BB63-11F1CCCA56CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8AFDC910-5611-4398-80C4-401450A5739D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AFDC910-5611-4398-80C4-401450A5739D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AFDC910-5611-4398-80C4-401450A5739D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AFDC910-5611-4398-80C4-401450A5739D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -88,8 +76,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C971773A-FC70-4137-BB63-11F1CCCA56CC} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
-		{8AFDC910-5611-4398-80C4-401450A5739D} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
 		{032B215D-E4B4-49B2-A2AF-1EDA8C46A86F} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
 		{33505BF8-C20B-4376-8A36-650CAD7100F2} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
 		{23E8598E-C0B1-4469-8B09-FE6D96CDAB9E} = {B72D5B53-DFE6-4013-A2E8-4DA144F4C2EB}
